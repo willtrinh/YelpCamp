@@ -1,0 +1,35 @@
+<%- include ("../partials/header") %>
+<div class="row justify-content-center">
+    <div class="col-md-3 text-center" id="profile-img">
+        <div class="card">
+          <img class="card-img-top" src="<%=user.avatar%>" alt="user profile image">
+          <h1>John Doe</h1>
+          <a href="#"><i class="user icon"></i><%=user.username%></a>
+          <a href="mailto:<%=user.email%>"><i class="envelope icon"></i><%=user.email%></a>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <h3 class="jumbotron text-center"><%= user.username %>'s Campgrounds</h3>
+        <% if (campgrounds.length == 0) { %>
+                <h4 class="text-center text-danger">This user has not posted any campground.</h4>
+            <% } else { %>
+        <div class="row text-center">
+            
+            
+    <%campgrounds.forEach(function(campground){%>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-3">
+        
+        <div class="card">
+          <img class="card-img-top" src="<%= campground.image %>" alt="<%=campground.name%>">
+          <div class="card-body">
+            <h5 class="card-title"><a href="/campgrounds/<%=campground._id%>"><h4><%=campground.name%></h4></a></h5>
+          </div>
+        </div>
+    </div>
+    <% }); %>
+    <% } %>
+</div>
+    </div>
+
+</div>
+<%- include ("../partials/footer") %>
