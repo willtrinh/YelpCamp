@@ -1,0 +1,31 @@
+<%- include ("partials/header") %>
+<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form" action="/forgot" method="POST">
+					<img class="w-25 rounded mx-auto d-block pb-3" src="images/password.png"/>
+					<span class="login100-form-title p-b-34">
+						
+						RESET PASSWORD
+					</span>
+					<p class="mx-auto d-block pb-3">Enter your email address below to reset password.</p>
+					<div class="wrap-input100 m-b-20">
+						<input class="input100" type="email" name="email" placeholder="Email" autofocus class="form-control" required>
+						<span class="focus-input100"></span>
+					</div>
+					<div class="container-login100-form-btn">
+						<button class="ui vertical animated big fluid teal button">
+				              <div class="visible content">Reset Password</div>
+				                <div class="hidden content">
+				                  <i class="paper plane icon"></i>
+				                </div>
+				         </button>
+					</div>
+
+				</form>
+
+				<div class="login100-more" style="background-image: url('images/question-mark.jpg');"></div>
+			</div>
+		</div>
+	</div>
+<%- include ("partials/footer") %>

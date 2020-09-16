@@ -1,0 +1,56 @@
+<section class="footer"></section>
+</div> <!-- container --> 
+<!--Bootstrap & dependencies-->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        // navbar scrolling transition
+        // $(window).scroll(function() {
+        //     if ($(document).scrollTop() > 50) {
+        //         $('.nav').addClass('affix');
+        //         console.log("OK");
+        //     } else {
+        //         $('.nav').removeClass('affix');
+        //     }
+        // });
+
+        // Hamburger menu
+        $(".navTrigger").click(function () {
+        	$(this).toggleClass("active");
+        	console.log("Clicked menu");
+        	$("#mainListDiv").toggleClass("show_list");
+        	$("#mainListDiv").fadeIn();
+        });
+        
+        // Search box
+        $(document).ready(function(){
+            $("#search").focus(function() {
+              $(".search-box").addClass("border-searching");
+              $(".search-icon").addClass("si-rotate");
+            });
+            $("#search").blur(function() {
+              $(".search-box").removeClass("border-searching");
+              $(".search-icon").removeClass("si-rotate");
+            });
+            $("#search").keyup(function() {
+                if($(this).val().length > 0) {
+                  $(".go-icon").addClass("go-in");
+                }
+                else {
+                  $(".go-icon").removeClass("go-in");
+                }
+            });
+            $(".go-icon").click(function(){
+              $(".search-form").submit();
+            });
+        });
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Semantic-UI JS CDN-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js" integrity="sha256-t8GepnyPmw9t+foMh3mKNvcorqNHamSKtKRxxpUEgFI=" crossorigin="anonymous"></script>
+<!--Custom JS-->
+<script src="/js/main.js"></script>
+
+    </body>
+</html>
