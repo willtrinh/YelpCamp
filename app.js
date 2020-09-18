@@ -27,12 +27,8 @@ mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
 mongoose.set('useNewUrlParser', true);
 
-
 var url = process.env.DATABASEURL || "mongodb://localhost:27017/yelp_camp";
 mongoose.connect(url);
-//mongoose.connect("mongodb://localhost:27017/yelp_camp", {useNewUrlParser: true});
-//mongoose.connect("mongodb+srv://dbuser:dbpass123@yelpcamp.otzjm.mongodb.net/yelp_camp?retryWrites=true&w=majority", {useNewUrlParser: true});
-
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
