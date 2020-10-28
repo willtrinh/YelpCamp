@@ -76,4 +76,6 @@ See a live demo of the web app: https://ycamp-demo.herokuapp.com/
 * [moment](https://momentjs.com/)
 * [geocoder](https://github.com/wyattdanger/geocoder#geocoder)
 * [connect-flash](https://github.com/jaredhanson/connect-flash#connect-flash)
-
+### Platforms
+* Hosted on [heroku](https://www.heroku.com/)
+* Developed on [Cloud9](https://aws.amazon.com/cloud9/)
