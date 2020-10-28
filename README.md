@@ -1,11 +1,11 @@
 # YelpCamp
 > A Node.js yelp-like web application project from the Udemy course - [The Web Developer Bootcamp by Colt Steele](https://www.udemy.com/the-web-developer-bootcamp/) that allows users to browse and share campgrounds.
-
+> <img src="/img/welcome.png?raw=true">
 ## Live Demo
-https://ycamp-demo.herokuapp.com/
-
+See a live demo of the web app: https://ycamp-demo.herokuapp.com/
+<img src="/img/index.png?raw=true">
 ## Features
-- [User Authentication](#authentication)
+- [User Authentication](#user-authentication)
 - [Authorization](#authorization)
 - [Basic Functionalities](#basic-functionalities)
 - [User Profile](#user-profile)
@@ -15,9 +15,8 @@ https://ycamp-demo.herokuapp.com/
 - [Extra Features](#extra-features)
 
 ## User Authentication
-* User login page with username and password.
-* User sign-up page
-* Data validation.
+* User login page with username and password. <img src="/img/login.png?raw=true">
+* User sign-up page. <img src="/img/register.png?raw=true">
 * Admin sign-up with admin code that provides them with admin privileges.
 * Passwords are encrypted using [passportjs](http://www.passportjs.org/).
   
