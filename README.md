@@ -51,9 +51,11 @@ See a live demo of the web app: https://ycamp-demo.herokuapp.com/
 * Using Google Map API and Geocoding API to display campground location.
 
 ## Extra Features
+* Added password reset that sends an email to the user in order to reset their forgotten password. <img src="/img/password-reset.png?raw=true">
 * Added campground and comments posted date using [moment.js](https://momentjs.com/). <img src="/img/momentjs.png?raw=true">
 * Added the "like" button and display number of likes a campground has and the list of users who liked the campground. <img src="/img/likes.png?raw=true">
 * Restricted campground photo uploaded to only take images from [Unsplash](https://unsplash.com/) to avoid copyright infringement as well as NSFW images being uploaded to the website.
+
 
 ## Tools Used
 ### Front-end
