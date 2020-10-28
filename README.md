@@ -40,7 +40,8 @@ See a live demo of the web app: https://ycamp-demo.herokuapp.com/
 * If no result is found, it will return an error message that notify the user to search again. <img src="/img/search-fail.png?raw=true">
 
 ## Pagination
-* Divide campgrounds into a maximum of six campgrounds per page to avoid clustering, page scrolling, and improve visual of the website. <img src="/img/pagination.png?raw=true">
+* Divide campgrounds into a maximum of six campgrounds per page to avoid clustering, page scrolling, and improve visual of the website. 
+* <img src="/img/pagination.png?raw=true">
 * If user is on first page, pagination to the left is disabled. Vice versa, if user is on the last page, pagination to the right is disabled.
 * User can jump to first and last page using the "First" and "Last" button on the pagination.
 * User can go one page left or right using the "left" and "right" arrow on the pagination.
