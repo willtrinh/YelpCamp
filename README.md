@@ -52,4 +52,6 @@ https://ycamp-demo.herokuapp.com/
 ## Extra Features
 * Added campground and comments posted date using [moment.js](https://momentjs.com/).
 * Added the "like" button and display number of likes a campground has and the list of users who liked the campground.
+* Restricted campground photo uploaded to only take images from [Unsplash](https://momentjs.com/) to avoid copyright infringement as well as NSFW images being uploaded to the website.
+
 
