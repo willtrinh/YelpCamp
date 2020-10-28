@@ -13,6 +13,7 @@ See a live demo of the web app: https://ycamp-demo.herokuapp.com/
 - [Pagination](#pagination)
 - [Google Map Location](#google-map-location)
 - [Extra Features](#extra-features)
+- [Tools Used](#tools-used)
 
 ## User Authentication
 * User login page with username and password. <img src="/img/login.png?raw=true">
@@ -54,4 +55,23 @@ See a live demo of the web app: https://ycamp-demo.herokuapp.com/
 * Added the "like" button and display number of likes a campground has and the list of users who liked the campground. <img src="/img/likes.png?raw=true">
 * Restricted campground photo uploaded to only take images from [Unsplash](https://unsplash.com/) to avoid copyright infringement as well as NSFW images being uploaded to the website.
 
+## Tools Used
+### Front-end
+* HTML5
+* CSS3
+* [Bootstrap 4](https://getbootstrap.com/)
+* [SemanticUI](https://semantic-ui.com/)
+* [EJS](https://ejs.co/)
+* [Google Map API & Geocoding](https://cloud.google.com/maps-platform/)
+### Back-end
+* [express](https://expressjs.com/)
+* [mongoDB](https://www.mongodb.com/)
+* [mongoose](http://mongoosejs.com/)
+* [crypto](https://nodejs.org/api/crypto.html#crypto_crypto)
+* [passport](http://www.passportjs.org/)
+* [passport-local](https://github.com/jaredhanson/passport-local#passport-local)
+* [express-session](https://github.com/expressjs/session#express-session)
+* [moment](https://momentjs.com/)
+* [geocoder](https://github.com/wyattdanger/geocoder#geocoder)
+* [connect-flash](https://github.com/jaredhanson/connect-flash#connect-flash)
 
