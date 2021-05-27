@@ -1,6 +1,6 @@
 # YelpCamp
-> A Node.js yelp-like web application project from the Udemy course - [The Web Developer Bootcamp by Colt Steele](https://www.udemy.com/the-web-developer-bootcamp/) that allows users to browse and share campgrounds.
-> <img src="/img/welcome.png?raw=true">
+A yelp-like web application that allows users to share their favorite campgrounds with others.
+<img src="/img/welcome.png?raw=true">
 ## Live Demo
 See a live demo of the web app: https://ycamp-demo.herokuapp.com/
 <img src="/img/index.png?raw=true">
@@ -13,7 +13,7 @@ See a live demo of the web app: https://ycamp-demo.herokuapp.com/
 - [Pagination](#pagination)
 - [Google Map Location](#google-map-location)
 - [Extra Features](#extra-features)
-- [Tools Used](#tools-used)
+- [Technology Stack](#technology-stack)
 
 ## User Authentication
 * User login page with username and password. <img src="/img/login.png?raw=true">
@@ -57,15 +57,15 @@ See a live demo of the web app: https://ycamp-demo.herokuapp.com/
 * Restricted campground photo uploaded to only take images from [Unsplash](https://unsplash.com/) to avoid copyright infringement as well as NSFW images being uploaded to the website.
 
 
-## Tools Used
-### Front-end
+## Technology Stack
+### Frontend
 * HTML5
 * CSS3
 * [Bootstrap 4](https://getbootstrap.com/)
 * [SemanticUI](https://semantic-ui.com/)
 * [EJS](https://ejs.co/)
 * [Google Map API & Geocoding](https://cloud.google.com/maps-platform/)
-### Back-end
+### Backend
 * [express](https://expressjs.com/)
 * [mongoDB](https://www.mongodb.com/)
 * [mongoose](http://mongoosejs.com/)
@@ -76,6 +76,5 @@ See a live demo of the web app: https://ycamp-demo.herokuapp.com/
 * [moment](https://momentjs.com/)
 * [geocoder](https://github.com/wyattdanger/geocoder#geocoder)
 * [connect-flash](https://github.com/jaredhanson/connect-flash#connect-flash)
-### Platforms
+### Deployment
 * Hosted on [heroku](https://www.heroku.com/)
-* Developed on [Cloud9](https://aws.amazon.com/cloud9/)
